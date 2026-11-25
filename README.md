@@ -17,9 +17,6 @@ Ashgrove Lettings is a small letting agency in Leeds looking after about **300 r
 One person reads everything and forwards it by hand, so urgent emails can sit behind routine ones.
 
 
-(site.response)
-
-
 ## 💡 The solution
 
 An email router built **entirely in Amazon Bedrock, with no application code for the routing logic**. Each email is classified, then sent down the right route:
@@ -33,7 +30,7 @@ An email router built **entirely in Amazon Bedrock, with no application code for
 
 ---
 
-## 🧭 Architecture(flowbuilder.all nodes)
+## 🧭 Architecture
 
 ```mermaid
 flowchart LR
